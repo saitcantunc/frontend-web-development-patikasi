@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	background: #202124;
+}
+
+header {
+	height: 48px;
+	background: transparent;
+	align-items: flex-end;
+}
+
+header .links {
+	width: 263.7px;
+	float: right;
+	padding: 10px 4px;
+	padding-left: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+header .links a {
+	color: white;
+	display: inline-block;
+	line-height: 24px;
+	margin-left: 5px;
+}
+
+header .links a:hover {
+	text-decoration: underline;
+}
+
+header .links i {
+	color: white;
+}
+
+header img {
+	border-radius: 50%;
+}
+
+main {
+	height: 754px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+main .img {
+	height: 92px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+main .input {
+	width: 584px;
+	height: 46px;
+	margin-top: 15px;
+	border-radius: 10px;
+	margin-bottom: 25px;
+	border: 1px solid #e8eaed;
+}
+
+main .input input {
+	background: #202124;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	color: white;
+	padding: 5px 10px;
+}
+
+main .links {
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+	font-size: 14px;
+}
+
+main .links div {
+	background: #303134;
+	border: 1px solid #303134;
+	border-radius: 4px;
+	padding: 0 16px;
+	line-height: 27px;
+	text-align: center;
+}
+
+main .links div a {
+	color: #e8eaed;
+}
+
+main .content {
+	width: 582px;
+	color: #bdc1c6;
+	margin-top: 30px;
+	text-align: center;
+}
+
+main .content p a {
+	color: #8ab4f8;
+}
+
+footer {
+	height: 95px;
+	background-color: #171717;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+footer li {
+	cursor: pointer;
+}
+
+footer .top {
+	padding: 15px 30px;
+	border-bottom: 1px solid rgba(rgb(136, 136, 136), green, blue, alpha);
+	font-size: 15px;
+	color: #9aa0a6;
+}
+
+footer .bottom {
+	height: 47px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #9aa0a6;
+	padding: 15px 30px;
+}
+
+footer .bottom .right ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 400px;
+}
+
+footer .bottom .left ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 400px;
+}
+
+footer li:hover {
+	text-decoration: underline;
+}
